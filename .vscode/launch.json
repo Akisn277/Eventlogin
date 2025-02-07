@@ -1,0 +1,73 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "LoanCalculate",
+      "request": "launch",
+      "mainClass": "LoanCalculate",
+      "projectName": "Projects_d5c2f63b"
+    },
+    {
+      "type": "java",
+      "name": "CurrencyExchange",
+      "request": "launch",
+      "mainClass": "CurrencyExchange",
+      "projectName": "Projects_d5c2f63b"
+    },
+    {
+      "type": "java",
+      "name": "OperatorsDemo",
+      "request": "launch",
+      "mainClass": "OperatorsDemo",
+      "projectName": "Projects_d5c2f63b"
+    },
+    {
+      "type": "java",
+      "name": "LoanCalculator",
+      "request": "launch",
+      "mainClass": "LoanCalculator",
+      "projectName": "Projects_d5c2f63b"
+    },
+    {
+      "type": "java",
+      "name": "BankAccount",
+      "request": "launch",
+      "mainClass": "BankAccount",
+      "projectName": "Projects_d5c2f63b"
+    },
+    {
+      "type": "java",
+      "name": "Book",
+      "request": "launch",
+      "mainClass": "Book",
+      "projectName": "Projects_d5c2f63b"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/AKSHARA/OneDrive/Desktop/Projects/Random BS",
+      "program": "c:/Users/AKSHARA/OneDrive/Desktop/Projects/Random BS/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
